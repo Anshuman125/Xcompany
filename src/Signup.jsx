@@ -6,9 +6,11 @@ import { Button, Checkbox, Label, TextInput } from "flowbite-react";
 export function Component() {
   return (
     <div>
-        <h1 className="text-white font-bold text-8xl flex justify-center align-middle uppercase bg-zinc-800 p-4 mb-2">Signup</h1>
-        <div className="w-[40%] absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[40%] flex align-middle justify-center border-2 pt-[2%] bg-zinc-800 rounded-3xl">
-        <form className="flex max-w-md flex-col gap-4 w-[100%] mb-[2vw]">
+        <div className="w-[100%] absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex align-middle justify-center bg-zinc-900 rounded-3xl">
+        <form className="flex max-w-xl flex-col gap-4  bg-zinc-800 border-2 w-[100%] p-[2vw] rounded-3xl">
+          <div className='uppercase font-bold text-[3vw] text-white'>
+            Signup
+          </div>
       <div>
         <div className="mb-2 block">
           <Label htmlFor="name" className="font-semibold text-white" value="Your Name" />

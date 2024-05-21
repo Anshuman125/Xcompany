@@ -7,8 +7,8 @@ function App() {
   return (
     <>
     <div className='w-full h-screen bg-zinc-900'>
-      {/* <Component/> */}
-      <Login/>
+      <Component/>
+      {/* <Login/> */}
     </div>
     </>
     
